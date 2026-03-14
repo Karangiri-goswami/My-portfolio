@@ -14,4 +14,4 @@ Technologies used:
 - JavaScript
 
 Live Website:
-https://karangoswami08.github.io/My-Portfolio/
+  https://karangiri-goswami.github.io/My-portfolio/
