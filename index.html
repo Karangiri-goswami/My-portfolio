@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karangiri Goswami | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/logo.jpg" />
+</head>
+<body>
+  <!-- Cursor follower -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- Page wrapper -->
+  <div class="page-wrapper">
+
+    <!-- Header / Nav -->
+    <header class="header" id="top">
+      <div class="logo">
+        <span class="logo-mark">KG</span>
+        <span class="logo-text">Karangiri</span>
+      </div>
+
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="#hero" data-nav>Home</a></li>
+          <li><a href="#about" data-nav>About</a></li>
+          <li><a href="#skills" data-nav>Skills</a></li>
+          <li><a href="#experience" data-nav>Experience</a></li>
+          <li><a href="#projects" data-nav>Projects</a></li>
+          <li><a href="#contact" data-nav>Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn--sm btn--outline resume-btn">Hire Me</a>
+      </nav>
+
+      <button class="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon theme-icon--sun">☀</span>
+        <span class="theme-icon theme-icon--moon">🌙</span>
+      </button>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-blur hero-bg-blur--1"></div>
+      <div class="hero-bg-blur hero-bg-blur--2"></div>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-kicker">Computer Engineer • Full‑Stack Web Developer</p>
+          <h1 class="hero-title">
+            Hi, I’m <span class="accent">Karangiri<br />Goswami</span>
+          </h1>
+          <p class="hero-subtitle">
+            I craft performant, scalable and visually engaging web experiences using
+            modern frontend and backend technologies.
+          </p>
+
+          <div class="hero-meta">
+            <div class="hero-meta-item">
+              <span class="hero-meta-label">Location</span>
+              <span class="hero-meta-value">Jamnagar, Gujarat, India</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="hero-meta-label">Currently</span>
+              <span class="hero-meta-value">
+                B.E. Computer Engineering @ B.H. Gardi College of Engineering &amp; Technology
+              </span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a href="#contact" class="btn btn--ghost">Let’s Collaborate</a>
+          </div>
+
+          <div class="hero-quick-stats">
+            <div class="stat-card">
+              <span class="stat-number" data-stat="3">0</span>
+              <span class="stat-label">Years coding experience</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-stat="10">0</span>
+              <span class="stat-label">+ completed web projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-stat="5">0</span>
+              <span class="stat-label">Tech stacks</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-orbit">
+            <div class="orbit-circle orbit-circle--outer"></div>
+            <div class="orbit-circle orbit-circle--inner"></div>
+            <div class="orbit-dot orbit-dot--1"></div>
+            <div class="orbit-dot orbit-dot--2"></div>
+            <div class="orbit-dot orbit-dot--3"></div>
+          </div>
+          <div class="hero-avatar-card">
+            <div class="hero-avatar-glow"></div>
+            <img src="assets/profile.jpg" alt="Portrait of Karangiri Goswami" class="hero-avatar" />
+            <div class="hero-role-pill">
+              <span class="pill-dot"></span>
+              <span>Full‑Stack Web Developer</span>
+            </div>
+            <div class="hero-tech-pill">
+              <span>React</span>
+              <span>Django</span>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-indicator">
+        <span class="scroll-indicator-wheel"></span>
+        <span class="scroll-indicator-text">Scroll</span>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section-header">
+        <p class="section-kicker">About</p>
+
+        <h2 class="section-title">Who I am</h2>
+        <p class="section-subtitle">
+          I blend strong fundamentals in computer engineering with hands‑on experience
+          in building real products.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-summary card">
+          <h3 class="card-title">Profile</h3>
+          <p>
+            I’m a Computer Engineering student pursuing my B.E. at
+            B.H. Gardi College of Engineering &amp; Technology, with a diploma background in
+            Computer Engineering from G.P. Jamnagar. I enjoy turning complex ideas into
+            clean, maintainable and user‑friendly digital products.
+          </p>
+          <p>
+            Over the last few years, I’ve worked across frontend and backend technologies:
+            from crafting responsive interfaces in React to building robust APIs with Django and relational databases.
+          </p>
+          <p>
+            I’m actively looking for opportunities where I can contribute to ambitious teams,
+            ship production‑ready features, and keep leveling up as a full‑stack engineer.
+          </p>
+
+          <div class="about-tags">
+            <span class="tag">Frontend Engineering</span>
+            <span class="tag">Backend Development</span>
+            <span class="tag">Python &amp; Django</span>
+            <span class="tag">React Ecosystem</span>
+          </div>
+        </div>
+
+        <div class="about-details card">
+          <h3 class="card-title">At a glance</h3>
+          <ul class="detail-list">
+            <li>
+              <span>Education</span>
+              <span>
+                B.E. Computer Engineering<br />
+                B.H. Gardi College of Engineering &amp; Technology
+              </span>
+            </li>
+            <li>
+              <span>Diploma</span>
+              <span>
+                Diploma in Computer Engineering, 2022‑2025<br />
+                Government Polytechnic, Jamnagar
+              </span>
+            </li>
+            <li>
+              <span>Core strengths</span>
+              <span>Problem solving, code quality, clean UI implementation, debugging</span>
+            </li>
+            <li>
+              <span>Languages</span>
+              <span>Hindi, Gujarati, English</span>
+            </li>
+          </ul>
+
+          <div class="about-highlight">
+            <h4>Appreciations &amp; Achievements</h4>
+            <ul>
+              <li>Recognized for writing clean, reusable React components and scalable file structures during internship.</li>
+              <li>Appreciated for delivering a production‑ready Django module ahead of deadline with complete documentation.</li>
+              <li>Consistently trusted with client‑facing features thanks to reliable frontend and backend integration skills.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="section-header">
+        <p class="section-kicker">Skills</p>
+        <h2 class="section-title">Tech stack &amp; strengths</h2>
+        <p class="section-subtitle">
+          A strong foundation across frontend, backend and databases with hands‑on project experience.
+        </p>
+      </div>
+
+      <div class="skills-layout">
+        <div class="skills-column card">
+          <h3 class="card-title">Frontend</h3>
+          <div class="chip-row">
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">JavaScript (ES6+)</span>
+            <span class="chip">React</span>
+            <span class="chip">Bootstrap</span>
+          </div>
+
+          <div class="meter-group">
+            <div class="meter">
+              <span class="meter-label">React &amp; SPA architecture</span>
+              <span class="meter-value" data-value="88"></span>
+            </div>
+            <div class="meter">
+              <span class="meter-label">Responsive UI / UX</span>
+              <span class="meter-value" data-value="90"></span>
+            </div>
+            <div class="meter">
+              <span class="meter-label">Reusable component design</span>
+              <span class="meter-value" data-value="86"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-column card">
+          <h3 class="card-title">Backend &amp; Databases</h3>
+          <div class="chip-row">
+            <span class="chip">Python</span>
+            <span class="chip">Django</span>
+            <span class="chip">REST APIs</span>
+            <span class="chip">PHP</span>
+            <span class="chip">MySQL</span>
+          </div>
+
+          <div class="meter-group">
+            <div class="meter">
+              <span class="meter-label">API design &amp; integration</span>
+              <span class="meter-value" data-value="84"></span>
+            </div>
+            <div class="meter">
+              <span class="meter-label">Database modeling (MySQL)</span>
+              <span class="meter-value" data-value="82"></span>
+            </div>
+            <div class="meter">
+              <span class="meter-label">Authentication &amp; auth flows</span>
+              <span class="meter-value" data-value="80"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-column card">
+          <h3 class="card-title">Programming &amp; Tools</h3>
+          <div class="chip-row">
+            <span class="chip">C</span>
+            <span class="chip">C++</span>
+            <span class="chip">Java</span>
+            <span class="chip">Git &amp; GitHub</span>
+            <span class="chip">VS Code</span>
+          </div>
+
+          <div class="meter-group">
+            <div class="meter">
+              <span class="meter-label">Problem solving &amp; DSA basics</span>
+              <span class="meter-value" data-value="78"></span>
+            </div>
+            <div class="meter">
+              <span class="meter-label">Version control &amp; collaboration</span>
+              <span class="meter-value" data-value="88"></span>
+            </div>
+            <div class="meter">
+              <span class="meter-label">Debugging &amp; optimization</span>
+              <span class="meter-value" data-value="82"></span>
+            </div>
+          </div>
+
+          <div class="skills-note">
+            <p>
+              I regularly refine my coding style, focus on meaningful naming, and follow best practices in both frontend and backend for maintainable codebases.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="section-header">
+        <p class="section-kicker">Experience</p>
+        <h2 class="section-title">Industry exposure</h2>
+        <p class="section-subtitle">
+          Internships that gave me real‑world experience with production‑oriented web applications.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item card">
+          <div class="timeline-badge"></div>
+          <div class="timeline-meta">
+            <span class="timeline-company">INFOLABZ IT Pvt. Ltd.</span>
+            <span class="timeline-role">Django Developer Intern</span>
+            <span class="timeline-period">06/2023 – 10/2023</span>
+          </div>
+          <ul class="timeline-points">
+            <li>Set up and maintained Django projects with clean modular structure.</li>
+            <li>Worked with Django ORM to design models, relationships and queries for scalable data handling.</li>
+            <li>Implemented views and templates for dynamic pages, ensuring responsiveness and performance.</li>
+            <li>Improved understanding of building secure, maintainable Python‑based web applications.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-item card">
+          <div class="timeline-badge"></div>
+          <div class="timeline-meta">
+            <span class="timeline-company">INFOLABZ IT Pvt. Ltd.</span>
+            <span class="timeline-role">React / Frontend Developer Intern</span>
+            <span class="timeline-period">02/2024 – 10/2024</span>
+          </div>
+          <ul class="timeline-points">
+            <li>Developed dynamic, responsive interfaces using React and modern JavaScript.</li>
+            <li>Consumed REST APIs for real‑time data rendering with proper loading and error states.</li>
+            <li>Applied best practices in project structuring, component architecture and performance optimization.</li>
+            <li>Collaborated closely with backend developers to deliver cohesive user experiences end‑to‑end.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="section-header">
+        <p class="section-kicker">Projects</p>
+        <h2 class="section-title">Selected work</h2>
+        <p class="section-subtitle">
+          A few projects that showcase my skills across the stack.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card card">
+          <div class="project-header">
+            <span class="project-tag">React • REST API</span>
+            <h3 class="project-title">Dynamic Recipe Explorer</h3>
+          </div>
+          <p class="project-summary">
+            A fully responsive recipe discovery platform built during a 45‑day React internship,
+            fetching live data from external APIs and presenting it in a clean, card‑based interface.
+          </p>
+
+          <ul class="project-points">
+            <li>Integrated real‑time recipe APIs to display cuisines, detailed ingredients and step‑by‑step instructions.</li>
+            <li>Implemented advanced search, filters and category browsing with smooth transitions.</li>
+            <li>Focused on modern UI/UX: clear hierarchy, consistent spacing, and delightful micro‑interactions.</li>
+          </ul>
+
+          <div class="project-meta">
+            <div class="project-stack">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>REST API</span>
+              <span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 (example placeholder) -->
+        <article class="project-card card">
+          <div class="project-header">
+            <span class="project-tag">Django • MySQL</span>
+            <h3 class="project-title">Student Task &amp; Attendance Manager</h3>
+          </div>
+          <p class="project-summary">
+            A full‑stack web app to manage student tasks, attendance and performance,
+            with role‑based access for students and faculty.
+          </p>
+
+          <ul class="project-points">
+            <li>Designed relational database schema and implemented it with Django models and MySQL.</li>
+            <li>Built authenticated dashboards for students and faculty with clear, accessible UI.</li>
+            <li>Exposed RESTful endpoints and integrated front‑end components for smooth data flows.</li>
+          </ul>
+
+          <div class="project-meta">
+            <div class="project-stack">
+              <span>Django</span>
+              <span>Python</span>
+              <span>MySQL</span>
+              <span>Bootstrap</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 (example placeholder) -->
+        <article class="project-card card">
+          <div class="project-header">
+            <span class="project-tag">React • Django</span>
+            <h3 class="project-title">Personal Portfolio Platform</h3>
+          </div>
+          <p class="project-summary">
+            A customizable portfolio builder for students and developers to showcase projects,
+            skills and experience through a generated public profile.
+          </p>
+
+          <ul class="project-points">
+            <li>Created dynamic forms and preview components in React for live portfolio editing.</li>
+            <li>Implemented Django backend for authentication, data storage and portfolio publishing.</li>
+            <li>Focused on performance and accessibility to ensure fast loads and keyboard‑friendly navigation.</li>
+          </ul>
+
+          <div class="project-meta">
+            <div class="project-stack">
+              <span>React</span>
+              <span>Django REST</span>
+              <span>MySQL</span>
+              <span>GitHub</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo</a>
+              <a href="#" class="project-link">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="section-header">
+        <p class="section-kicker">Contact</p>
+        <h2 class="section-title">Let’s build something</h2>
+        <p class="section-subtitle">
+          Open to internships, freelance projects and full‑time opportunities in web development.
+        </p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-info card">
+          <h3 class="card-title">Reach out</h3>
+          <ul class="contact-list">
+            <li>
+              <span>Email</span>
+              <a href="mailto:karangoswami1477@gmail.com">karangoswami1477@gmail.com</a>
+            </li>
+            <li>
+              <span>Phone</span>
+              <a href="tel:+919998344800">+91 99983 44800</a>
+            </li>
+            <li>
+              <span>Location</span>
+              <span>Jamnagar, Gujarat, India</span>
+            </li>
+          </ul>
+
+          <div class="contact-social">
+            <a href="https://github.com/KARANGOSWAMI08" target="_blank" class="social-link">GitHub</a>
+            
+            <a href="https://www.linkedin.com/in/karangiri-goswami-67925a357/" target="_blank" class="social-link">LinkedIn</a>
+            
+            <a href="https://leetcode.com/u/Karangiri_Goswami/" target="_blank" class="social-link">LeetCode</a>
+            </div>
+            </div>
+
+
+        <form class="contact-form card" id="contactForm" autocomplete="off">
+          <h3 class="card-title">Quick message</h3>
+
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+          </div>
+
+          <div class="field-group">
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field">
+              <label for="budget">Project type</label>
+              <select id="budget" name="budget">
+                <option value="frontend">Frontend project</option>
+                <option value="fullstack">Full‑stack project</option>
+                <option value="internship">Internship / role</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell me a bit about what you need…" required></textarea>
+          </div>
+
+          <div class="form-footer">
+            <button type="submit" class="btn btn--primary">Send message</button>
+            <p class="form-status" id="formStatus"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© <span id="year"></span> Karangiri Goswami. Built with HTML, CSS &amp; JavaScript.</p>
+      <a href="#top" class="scroll-top">Back to top</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
